@@ -52,6 +52,13 @@
         })
     })
 
+    describe('wordScore()', () => {
+        it('the word "mama" to score 32', () => {
+            const word = "mama"
+            expect(wordScore(word)).to.equal(32)
+        })
+    })
+
   </script>
   <script class="mocha-exec">
     mocha.run();
